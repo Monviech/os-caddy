@@ -1,0 +1,25 @@
+name: os-caddy-devel
+version: "1.8.5"
+origin: opnsense/os-caddy-devel
+comment: "Modern Reverse Proxy with Automatic HTTPS, Dynamic DNS and Layer4 Routing"
+maintainer: "cedrik@pischem.com"
+categories: [ "www" ]
+www: "https://opnsense.org/"
+prefix: "/usr/local"
+licenselogic: "single"
+licenses: [ "BSD2CLAUSE" ]
+deps: {
+  caddy-custom: { version: "2.9.1.1.0.4.2.4_1", origin: "www/caddy-custom" }
+}
+annotations {
+    "product_abi": "25.1",
+    "product_arch": "amd64",
+    "product_conflicts": "os-caddy",
+    "product_email": "cedrik@pischem.com",
+    "product_hash": "9dbc07e8d",
+    "product_id": "os-caddy-devel",
+    "product_name": "caddy",
+    "product_tier": "3",
+    "product_version": "1.8.5",
+    "product_website": "https://opnsense.org/"
+}
