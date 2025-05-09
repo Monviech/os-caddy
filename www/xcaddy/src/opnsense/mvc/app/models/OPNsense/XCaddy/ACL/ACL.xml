@@ -1,0 +1,10 @@
+<acl>
+    <page-xcaddy-general>
+        <name>Services: Caddy: Modules</name>
+        <description>Allow access to Caddy Modules</description>
+        <patterns>
+            <pattern>ui/xcaddy/*</pattern>
+            <pattern>api/xcaddy/*</pattern>
+        </patterns>
+    </page-xcaddy-general>
+</acl>

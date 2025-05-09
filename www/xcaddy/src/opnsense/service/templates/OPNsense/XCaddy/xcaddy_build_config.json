@@ -1,0 +1,10 @@
+{
+    "version": "",
+    "modules": [
+{%  if Pischem.xcaddy.general.modules -%}
+{%      for module in Pischem.xcaddy.general.modules.split(',') %}
+        "{{ module }}"{% if not loop.last %},{% endif +%}
+{%      endfor %}
+{%  endif %}
+    ]
+}

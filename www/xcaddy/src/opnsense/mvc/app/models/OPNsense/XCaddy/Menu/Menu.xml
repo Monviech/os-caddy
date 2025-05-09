@@ -1,0 +1,7 @@
+<menu>
+    <Services>
+        <Caddy cssClass="fa fa-globe fa-fw">
+            <Modules order="35" url="/ui/xcaddy/general"/>
+        </Caddy>
+    </Services>
+</menu>
