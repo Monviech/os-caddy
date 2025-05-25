@@ -134,28 +134,6 @@ def build_caddy(version: str, modules: list[str]) -> int:
         return process.wait()
 
 
-
-def build_caddy(version: str, modules: list[str]) -> int:
-    '''Run the xcaddy build command with the given version and modules.'''
-    if BUILD_OUTPUT.exists():
-        BUILD_OUTPUT.unlink()
-
-    cmd = ['xcaddy', 'build', version, '--output', str(BUILD_OUTPUT)]
-    for module in modules:
-        cmd.extend(['--with', module])
-
-    with open(LOG_FILE, 'w') as log:
-        log.write(f"# xcaddy command: {' '.join(cmd)}\n\n")
-        log.flush()
-
-        process = subprocess.Popen(
-            cmd,
-            stdout=log,
-            stderr=subprocess.STDOUT,
-        )
-        return process.wait()
-
-
 def install_binary() -> None:
     '''Move the compiled Caddy binary to the final target path and make it executable.'''
     if not BUILD_OUTPUT.exists():
