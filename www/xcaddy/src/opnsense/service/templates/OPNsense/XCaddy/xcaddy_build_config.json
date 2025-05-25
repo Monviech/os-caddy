@@ -6,5 +6,12 @@
         "{{ module }}"{% if not loop.last %},{% endif +%}
 {%      endfor %}
 {%  endif %}
+    ],
+    "module_overrides": [
+{%  if Pischem.xcaddy.general.module_overrides -%}
+{%      for override in Pischem.xcaddy.general.module_overrides.split(',') %}
+        "{{ override }}"{% if not loop.last %},{% endif +%}
+{%      endfor %}
+{%  endif %}
     ]
 }

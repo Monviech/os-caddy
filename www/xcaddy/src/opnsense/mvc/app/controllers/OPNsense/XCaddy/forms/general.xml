@@ -7,4 +7,12 @@
         <size>10</size>
         <help><![CDATA[Add additional modules and build a new caddy binary with xcaddy on this host. Depending on CPU speed and bandwidth this might take a few minutes, please be patient. If the build fails, inspect the build log in /var/log/xcaddy and report it to the module maintainer. The binary is only replaced when the build succeeds. To restore the default, deselect all modules and rebuild. Please note that most additional modules apart from caddy-dns providers are not supported in the os-caddy GUI, use custom configuration files instead. If you want to automatically rebuild caddy with the current settings - e.g., after firmware updates - schedule a cron job.]]></help>
     </field>
+    <field>
+        <id>xcaddy.general.module_overrides</id>
+        <label>Custom Modules</label>
+        <type>select_multiple</type>
+        <style>tokenize</style>
+        <allownew>true</allownew>
+        <help><![CDATA[Enter custom modules that are not yet registered in modules, need a custom git hash, or different respository. Please note that the list is not deduplicated, take care that there is no overlap, or the build might fail.]]></help>
+    </field>
 </form>
