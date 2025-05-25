@@ -5,6 +5,11 @@ WWW: https://caddyserver.com/
 Plugin Changelog
 ================
 
+0.2
+
+* Add custom modules. 
+
+
 0.1
 
 * Initial Release.

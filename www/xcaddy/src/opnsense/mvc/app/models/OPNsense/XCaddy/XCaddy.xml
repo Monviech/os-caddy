@@ -9,6 +9,12 @@
                 <SortByValue>Y</SortByValue>
                 <Multiple>Y</Multiple>
             </modules>
+            <module_overrides type="HostnameField">
+                <AsList>Y</AsList>
+                <FieldSeparator>,</FieldSeparator>
+                <ZoneRootAllowed>Y</ZoneRootAllowed>
+                <IsDNSName>Y</IsDNSName>
+            </module_overrides>
         </general>
     </items>
 </model>
