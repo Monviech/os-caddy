@@ -24,71 +24,71 @@
             <TlsDnsProvider type="OptionField">
                 <BlankDesc>None (default)</BlankDesc>
                 <OptionValues>
-                    <cloudflare>Cloudflare (embedded)</cloudflare>
-                    <duckdns>Duck DNS (optional)</duckdns>
-                    <gandi>Gandi (optional)</gandi>
-                    <ionos>IONOS (optional)</ionos>
-                    <desec>Desec (optional)</desec>
-                    <porkbun>Porkbun (optional)</porkbun>
-                    <acmedns>ACME-DNS (optional)</acmedns>
-                    <azure>Azure (optional)</azure>
-                    <ovh>OVH (optional)</ovh>
-                    <namecheap>Namecheap (optional)</namecheap>
-                    <powerdns>PowerDNS (optional)</powerdns>
-                    <linode>Linode (optional)</linode>
-                    <hexonet>Hexonet (optional)</hexonet>
-                    <mailinabox>Mail-in-a-Box (optional)</mailinabox>
-                    <rfc2136>RFC2136 (optional)</rfc2136>
-                    <dnsmadeeasy>DNS Made Easy (optional)</dnsmadeeasy>
-                    <bunny>Bunny (optional)</bunny>
-                    <scaleway>Scaleway (optional)</scaleway>
-                    <acmeproxy>ACME Proxy (optional)</acmeproxy>
-                    <inwx>INWX (optional)</inwx>
-                    <netcup>Netcup (optional)</netcup>
-                    <namedotcom>Name.com (optional)</namedotcom>
-                    <infomaniak>Infomaniak (optional)</infomaniak>
-                    <directadmin>DirectAdmin (optional)</directadmin>
-                    <vultr>Vultr (optional)</vultr>
-                    <hetzner>Hetzner (optional)</hetzner>
-                    <digitalocean>DigitalOcean (optional)</digitalocean>
-                    <route53>Route53 (optional)</route53>
-                    <googleclouddns>Google Cloud DNS (optional)</googleclouddns>
-                    <netlify>Netlify (optional)</netlify>
-                    <ddnss>DDNSS (optional)</ddnss>
-                    <njalla>Njalla (optional)</njalla>
-                    <tencentcloud>Tencent Cloud (optional)</tencentcloud>
-                    <dinahosting>Dinahosting (optional)</dinahosting>
-                    <civo>Civo (optional)</civo>
-                    <easydns>EasyDNS (optional)</easydns>
-                    <hosttech>Hosttech (optional)</hosttech>
-                    <cloudns>ClouDNS (optional)</cloudns>
-                    <gcore>Gcore (optional)</gcore>
-                    <huaweicloud>Huawei Cloud (optional)</huaweicloud>
-                    <dnsexit>DNSExit (optional)</dnsexit>
-                    <nanelo>Nanelo (optional)</nanelo>
-                    <katapult>Katapult (optional)</katapult>
-                    <regfish>Regfish (optional)</regfish>
-                    <leaseweb>Leaseweb (optional)</leaseweb>
-                    <dreamhost>DreamHost (optional)</dreamhost>
-                    <exoscale>Exoscale (optional)</exoscale>
-                    <transip>TransIP (optional)</transip>
-                    <selectel>Selectel (optional)</selectel>
-                    <dnsimple>DNSimple (optional)</dnsimple>
-                    <luadns>LuaDNS (optional)</luadns>
-                    <he>Hurricane Electric (optional)</he>
-                    <namesilo>Namesilo (optional)</namesilo>
-                    <dode>Dode (optional)</dode>
-                    <dynu>Dynu (optional)</dynu>
-                    <glesys>Glesys (optional)</glesys>
-                    <nfsn>NFSN (optional)</nfsn>
-                    <godaddy>GoDaddy (optional)</godaddy>
-                    <vercel>Vercel (optional)</vercel>
-                    <loopia>Loopia (optional)</loopia>
-                    <dnspod>DNSPod (optional)</dnspod>
-                    <mythicbeasts>Mythic Beasts (optional)</mythicbeasts>
-                    <dynv6>Dynv6 (optional)</dynv6>
-                    <alidns>AliDNS (optional)</alidns>
-                    <metaname>Metaname (optional)</metaname>
+                    <cloudflare>Cloudflare</cloudflare>
+                    <duckdns>Duck DNS</duckdns>
+                    <gandi>Gandi</gandi>
+                    <ionos>IONOS</ionos>
+                    <desec>Desec</desec>
+                    <porkbun>Porkbun</porkbun>
+                    <acmedns>ACME-DNS</acmedns>
+                    <azure>Azure</azure>
+                    <ovh>OVH</ovh>
+                    <namecheap>Namecheap</namecheap>
+                    <powerdns>PowerDNS</powerdns>
+                    <linode>Linode</linode>
+                    <hexonet>Hexonet</hexonet>
+                    <mailinabox>Mail-in-a-Box</mailinabox>
+                    <rfc2136>RFC2136</rfc2136>
+                    <dnsmadeeasy>DNS Made Easy</dnsmadeeasy>
+                    <bunny>Bunny</bunny>
+                    <scaleway>Scaleway</scaleway>
+                    <acmeproxy>ACME Proxy</acmeproxy>
+                    <inwx>INWX</inwx>
+                    <netcup>Netcup</netcup>
+                    <namedotcom>Name.com</namedotcom>
+                    <infomaniak>Infomaniak</infomaniak>
+                    <directadmin>DirectAdmin</directadmin>
+                    <vultr>Vultr</vultr>
+                    <hetzner>Hetzner</hetzner>
+                    <digitalocean>DigitalOcean</digitalocean>
+                    <route53>Route53</route53>
+                    <googleclouddns>Google Cloud DNS</googleclouddns>
+                    <netlify>Netlify</netlify>
+                    <ddnss>DDNSS</ddnss>
+                    <njalla>Njalla</njalla>
+                    <tencentcloud>Tencent Cloud</tencentcloud>
+                    <dinahosting>Dinahosting</dinahosting>
+                    <civo>Civo</civo>
+                    <easydns>EasyDNS</easydns>
+                    <hosttech>Hosttech</hosttech>
+                    <cloudns>ClouDNS</cloudns>
+                    <gcore>Gcore</gcore>
+                    <huaweicloud>Huawei Cloud</huaweicloud>
+                    <dnsexit>DNSExit</dnsexit>
+                    <nanelo>Nanelo</nanelo>
+                    <katapult>Katapult</katapult>
+                    <regfish>Regfish</regfish>
+                    <leaseweb>Leaseweb</leaseweb>
+                    <dreamhost>DreamHost</dreamhost>
+                    <exoscale>Exoscale</exoscale>
+                    <transip>TransIP</transip>
+                    <selectel>Selectel</selectel>
+                    <dnsimple>DNSimple</dnsimple>
+                    <luadns>LuaDNS</luadns>
+                    <he>Hurricane Electric</he>
+                    <namesilo>Namesilo</namesilo>
+                    <dode>Dode</dode>
+                    <dynu>Dynu</dynu>
+                    <glesys>Glesys</glesys>
+                    <nfsn>NFSN</nfsn>
+                    <godaddy>GoDaddy</godaddy>
+                    <vercel>Vercel</vercel>
+                    <loopia>Loopia</loopia>
+                    <dnspod>DNSPod</dnspod>
+                    <mythicbeasts>Mythic Beasts</mythicbeasts>
+                    <dynv6>Dynv6</dynv6>
+                    <alidns>AliDNS</alidns>
+                    <metaname>Metaname</metaname>
                 </OptionValues>
             </TlsDnsProvider>
             <TlsDnsApiKey type="TextField"/>
