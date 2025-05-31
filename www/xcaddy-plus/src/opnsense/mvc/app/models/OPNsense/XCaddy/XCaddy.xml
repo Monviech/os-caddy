@@ -9,7 +9,7 @@
                 <SortByValue>Y</SortByValue>
                 <Multiple>Y</Multiple>
             </modules>
-            <module_overrides type="HostnameField">
+            <module_overrides type=".\CustomHostnameField">
                 <AsList>Y</AsList>
                 <FieldSeparator>,</FieldSeparator>
                 <ZoneRootAllowed>Y</ZoneRootAllowed>
