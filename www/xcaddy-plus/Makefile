@@ -1,4 +1,4 @@
-PLUGIN_NAME=		xcaddy
+PLUGIN_NAME=		xcaddy-plus
 PLUGIN_VERSION=		0.2
 PLUGIN_DEPENDS=		xcaddy
 PLUGIN_COMMENT=		Build caddy with custom modules
