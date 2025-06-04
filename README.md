@@ -18,9 +18,9 @@ Do not use ``os-xcaddy-plus`` in a production environment. A language dependency
 
 - Clone https://github.com/opnsense/ports
   - Move into the cloned repository
-  - Go to ``./lang/go`` and ``make install``
-  - Go to ``./www/caddy`` and ``make install``
-  - Go to ``./www/xcaddy`` and ``make install``
+  - Go to ``./lang/go`` and ``make -DBATCH install clean``
+  - Go to ``./www/caddy`` and ``make -DBATCH install clean``
+  - Go to ``./www/xcaddy`` and ``make -DBATCH install clean``
 - Clone https://github.com/Monviech/os-caddy
   - Move into the cloned repository
   - Go to ``./www/caddy-plus`` and ``make package``
