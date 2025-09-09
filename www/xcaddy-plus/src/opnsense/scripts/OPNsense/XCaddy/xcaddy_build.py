@@ -234,6 +234,8 @@ def main():
     commit hashes of modules and specific go versions, we always build latest release tags.
     For more specific builds, we can always overwrite the template with a custom configuration file instead.
     '''
+    print(json.dumps({"status": "running", "message": "Caddy build started"}))
+    sys.stdout.flush()
     detach_to_background()
     ensure_directories_exist()
     lock_fd = acquire_lock()
