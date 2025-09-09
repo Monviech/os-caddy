@@ -48,7 +48,7 @@ def ensure_directories_exist() -> None:
 
 def fetch_plugin_data():
     try:
-        response = requests.get(API_URL, timeout=60)
+        response = requests.get(API_URL, timeout=600)
         response.raise_for_status()
         return response.json().get("result", [])
     except requests.RequestException as e:
