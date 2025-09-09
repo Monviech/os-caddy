@@ -7,9 +7,8 @@ https://github.com/opnsense/plugins/tree/master/www/caddy
 This repository contains a fork of it which retains the DNS Provider subsystem, and adds a helper xcaddy plugin so the binary can be easily upgraded to include
 whichever module is needed.
 
-**DISCLAIMER:**
-
-Do not use ``os-xcaddy-plus`` in a production environment. A language dependency like ``lang/go`` can be a potential security concern. **Consider this plugin for development only.**
+- os-caddy-plus 2.0.3 requires OPNsense version 25.7.3 or later
+- os-xcaddy-plus 0.2 requires OPNsense version 25.1 or later
 
 **How to install on OPNsense:**
 
