@@ -362,6 +362,7 @@ http://{{ domain }} {
                     {% set context_var = 'dnsProviderSpecialLogic' %}
                     {% include "OPNsense/Caddy/includeDnsProvider" %}
                 }
+                {% endif %}
                 {% if dnsChallengeOverrideDomain %}
                 dns_challenge_override_domain {{ dnsChallengeOverrideDomain }}
                 {% endif %}
