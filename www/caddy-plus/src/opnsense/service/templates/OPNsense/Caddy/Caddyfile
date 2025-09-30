@@ -363,6 +363,7 @@ http://{{ domain }} {
                     {% include "OPNsense/Caddy/includeDnsProvider" %}
                 }
                 {% endif %}
+
                 {% if dnsChallengeOverrideDomain %}
                 dns_challenge_override_domain {{ dnsChallengeOverrideDomain }}
                 {% endif %}
