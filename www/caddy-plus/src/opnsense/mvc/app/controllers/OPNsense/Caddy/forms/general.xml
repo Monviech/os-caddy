@@ -91,21 +91,21 @@
             <id>caddy.general.timeout_read_body</id>
             <label>Read Body Timeout</label>
             <type>text</type>
-            <hint>no timout</hint>
+            <hint>no timeout</hint>
             <help><![CDATA[read_body is a duration value in seconds that sets how long to allow a read from a client's upload. Setting this to a short, non-zero value can mitigate slowloris attacks, but may also affect legitimately slow clients.]]></help>
         </field>
         <field>
             <id>caddy.general.timeout_read_header</id>
             <label>Read Header Timeout</label>
             <type>text</type>
-            <hint>no timout</hint>
+            <hint>no timeout</hint>
             <help><![CDATA[read_header is a duration value in seconds that sets how long to allow a read from a client's request headers.]]></help>
         </field>
         <field>
             <id>caddy.general.timeout_write</id>
             <label>Write Timeout</label>
             <type>text</type>
-            <hint>no timout</hint>
+            <hint>no timeout</hint>
             <help><![CDATA[write is a duration value in seconds that sets how long to allow a write to a client. Note that setting this to a small value when serving large files may negatively affect legitimately slow clients.]]></help>
         </field>
         <field>
