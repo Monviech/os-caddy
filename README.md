@@ -7,7 +7,7 @@ https://github.com/opnsense/plugins/tree/master/www/caddy
 This repository contains a fork of it which retains the DNS Provider subsystem, and adds a helper xcaddy plugin so the binary can be easily upgraded to include
 whichever module is needed.
 
-- os-caddy-plus 2.0.3 requires OPNsense version 25.7.3 or later
+- os-caddy-plus 2.1.0 requires OPNsense version 26.1 or later
 - os-xcaddy-plus 0.2 requires OPNsense version 25.1 or later
 
 **How to install on OPNsense:**
@@ -45,7 +45,6 @@ You can find the xcaddy plugin in ``Services: Caddy: Modules``:
   -  Select the base build with the ``Modules`` dropdown, to use all features you need at least:
 
 
-    github.com/caddyserver/ntlm-transport 
     github.com/mholt/caddy-dynamicdns
     github.com/mholt/caddy-l4
     github.com/caddy-dns/cloudflare   <- A DNS Provider of your choice
