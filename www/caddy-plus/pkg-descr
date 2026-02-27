@@ -48,12 +48,8 @@ Plugin Changelog
 
 2.0.1
 
-<<<<<<< HEAD:www/caddy-plus/pkg-descr
-* Add: Active Health Checks (contributed by zaben903) (opnsense/plugins/pull/4721)
-=======
 * Add: Active health checks to handlers (contributed by zaben903) (opnsense/plugins/pull/4721)
 * Fix: Add handler command sometimes clearing domain selection in open dialogue (opnsense/plugins/pull/4748)
->>>>>>> 155aa2e79 (www/caddy: Add changelog and bump plugin version to v2.1.0 (#5270)):www/caddy/pkg-descr
 
 2.0.0
 
