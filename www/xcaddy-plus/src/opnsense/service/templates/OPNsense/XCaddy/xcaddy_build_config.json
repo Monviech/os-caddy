@@ -1,15 +1,15 @@
 {
     "version": "",
     "modules": [
-{%  if Pischem.xcaddy.general.modules -%}
-{%      for module in Pischem.xcaddy.general.modules.split(',') %}
+{%  if OPNsense.xcaddy.general.modules -%}
+{%      for module in OPNsense.xcaddy.general.modules.split(',') %}
         "{{ module }}"{% if not loop.last %},{% endif +%}
 {%      endfor %}
 {%  endif %}
     ],
     "module_overrides": [
-{%  if Pischem.xcaddy.general.module_overrides -%}
-{%      for override in Pischem.xcaddy.general.module_overrides.split(',') %}
+{%  if OPNsense.xcaddy.general.module_overrides -%}
+{%      for override in OPNsense.xcaddy.general.module_overrides.split(',') %}
         "{{ override }}"{% if not loop.last %},{% endif +%}
 {%      endfor %}
 {%  endif %}

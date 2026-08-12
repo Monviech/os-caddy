@@ -1,5 +1,5 @@
 <model>
-    <mount>//Pischem/xcaddy</mount>
+    <mount>//OPNsense/xcaddy</mount>
     <description>XCaddy</description>
     <version>1.0.0</version>
     <items>
