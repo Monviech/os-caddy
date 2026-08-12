@@ -5,6 +5,10 @@ WWW: https://caddyserver.com/
 Plugin Changelog
 ================
 
+0.3
+
+* Cleanup: Move model mount to OPNsense/xcaddy. Existing configuration is NOT migrated automatically.
+
 0.2
 
 * Add custom modules. 
